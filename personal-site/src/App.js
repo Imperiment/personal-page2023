@@ -1,9 +1,12 @@
-import Header from './header';
-import './body.css';
+import Header from './part-of-site/header/header.js';
+import Main from './part-of-site/main/main.js';
 
 function App() {
   return (
-    <Header/>
+    <div>
+      <Header/>
+      <Main />
+    </div>
   );
 }
 

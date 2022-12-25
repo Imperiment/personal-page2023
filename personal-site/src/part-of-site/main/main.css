@@ -1,0 +1,19 @@
+/* #323030 */
+:root {
+    --main-clr: #fdf7ee;
+    --main-clr-darkmode: #323030;
+    --font-clr: #2e2d2d;
+    --font-clr-darkmode: white;
+    --brand-clr: #E52C2C;
+    --icon-lightmode: #f0c284;
+}
+main {
+    padding: 1rem;
+    background-color: var(--main-clr);
+    transform: translateY(-2rem);
+    padding-top: 3rem;
+    position: absolute;
+    z-index: -1;
+    border-radius: 13px;
+    color: var(--font-clr);
+}
