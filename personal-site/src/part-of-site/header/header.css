@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
 :root {
     --background-clr: #faebd7;
     --background-clr-darkmode: #545151;
@@ -6,6 +7,8 @@
     --font-clr-darkmode: white;
     --brand-clr: #E52C2C;
     --icon-lightmode: #f0c284;
+    --main-clr: #fdf7ee;
+    --main-font: #2e2d2d;
 }
 
 h1 {

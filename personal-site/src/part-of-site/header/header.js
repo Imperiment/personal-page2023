@@ -3,14 +3,22 @@ import React, {useState} from 'react';
 function Header() {
     const [isActive, setActive] = useState("false");
     const [theme, setTheme] = useState('header-lightmode');
+    const lightmode = '#fdf7ee';
+    const darkmode = '#323030';
+    const font__dark = '#FFF';
+    const font__light = '#2e2d2d';
     const handleToggle = ()=> {
         setActive(!isActive);
         if (theme === 'header-lightmode') {
             setTheme('header-darkmode');
             document.body.style.backgroundColor = '#121111';
+            document.documentElement.style.setProperty('--main-clr', darkmode);
+            document.documentElement.style.setProperty('--main-font', font__dark);
         } else {
             setTheme('header-lightmode');
             document.body.style.backgroundColor = '#FFFFFF';
+            document.documentElement.style.setProperty('--main-clr', lightmode);
+            document.documentElement.style.setProperty('--main-font', font__light);
         }
     };
     return (

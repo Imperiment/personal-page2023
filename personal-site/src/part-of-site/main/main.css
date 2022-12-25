@@ -1,8 +1,6 @@
+@import '../header/header.css';
 /* #323030 */
 :root {
-    --main-clr: #fdf7ee;
-    --main-clr-darkmode: #323030;
-    --font-clr: #2e2d2d;
     --font-clr-darkmode: white;
     --brand-clr: #E52C2C;
     --icon-lightmode: #f0c284;
@@ -15,5 +13,5 @@ main {
     position: absolute;
     z-index: -1;
     border-radius: 13px;
-    color: var(--font-clr);
+    color: var(--main-font);
 }
